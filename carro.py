@@ -5,16 +5,16 @@ class Carro:
         self.ano = ano
         self.cor = cor
 
-    def ligar (self):
+    def ligar(self):
         return f"o {self.modelo} está ligado"
     
-    def desligar (self):
+    def desligar(self):
         return f"o {self.modelo} está desligado"
     
-    def acelerar (self):
+    def acelerar(self):
         return f"o {self.modelo} está acelerando"
 
-if __name__ == "__main_":
+if __name__ == "__main__":
     carro1 = Carro("fiat", "touro", "1900","vermelha")
     carro2 = Carro("ford", "ka", "2020","branco")
 
